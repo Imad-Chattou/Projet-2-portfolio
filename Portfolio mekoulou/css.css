@@ -1,0 +1,97 @@
+/* Importation de la police professionnelle */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A192F; /* Bleu foncé technologique */
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: #112240;
+    color: #64FFDA;
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+}
+
+/* SECTION PRINCIPALE */
+section {
+    max-width: 90%;
+    width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #112240; /* Fond gris foncé moderne */
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Effet d'élévation au survol */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(0, 255, 255, 0.2);
+}
+
+/* TITRES */
+h2 {
+    color: #64FFDA; /* Cyan lumineux */
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+/* LISTE */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Éléments de liste */
+li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 400;
+    transition: background 0.3s ease, transform 0.3s ease-in-out;
+}
+
+/* Effet au survol des éléments de la liste */
+li:hover {
+    background: rgba(100, 255, 218, 0.3);
+    transform: translateX(10px);
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    li {
+        font-size: 1em;
+    }
+}
